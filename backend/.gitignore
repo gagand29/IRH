@@ -16,3 +16,7 @@ media/
 
 # OS files
 .DS_Store
+
+
+settings.py
+
