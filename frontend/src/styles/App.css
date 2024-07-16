@@ -1,0 +1,79 @@
+/* styles/App.css */
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+nav, footer {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav {
+  top: 0;
+}
+
+footer {
+  bottom: 0;
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+  padding-top: 60px; 
+  padding-bottom: 40px; 
+}
+
+.banner {
+  background-color: #1b1b1b; 
+  color: #ffffff; 
+  padding: 20px;
+}
+
+.banner-text {
+  padding: 20px;
+}
+
+.banner-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #e0e0e0; 
+}
+
+.banner-text p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #c0c0c0; 
+}
+
+.banner-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .banner-text {
+    padding: 0;
+  }
+
+  .banner-text h1 {
+    font-size: 2em;
+  }
+
+  .banner-text p {
+    font-size: 1em;
+  }
+}

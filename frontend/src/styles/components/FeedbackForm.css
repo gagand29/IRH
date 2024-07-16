@@ -1,0 +1,73 @@
+/* styles/components/FeedbackForm.css */
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    font-size: 1em;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #007bff; 
+    outline: none; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+  }
+  
+  .feedback-form textarea {
+    height: 150px; 
+    resize: vertical; 
+  }
+  
+  .feedback-form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s; 
+  }
+  
+  .feedback-form button[type="submit"]:hover {
+    background-color: #0056b3; 
+  }
+  
+  
+  @media (max-width: 768px) {
+    .feedback-form-container {
+      padding: 10px;
+    }
+  
+    .feedback-form input,
+    .feedback-form textarea,
+    .feedback-form button[type="submit"] {
+      font-size: 1em;
+    }
+  }
+  
