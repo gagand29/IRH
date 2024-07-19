@@ -2,7 +2,7 @@
 **Title: Indian Recipe Hub (IRH)**
 
 **Description:**
-Indian Recipe Hub (IRH) is a web application designed to showcase the rich flavors of Indian cuisine, offering a platform to explore, share, and engage with North and South Indian recipes. This project is developed as part of an assignment for a software engineering position, completed within a time limit of less than a week.
+Indian Recipe Hub (IRH) is a web application de
 
 **Features:**
 - Browse and explore a variety of North and South Indian recipes.
