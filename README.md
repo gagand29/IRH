@@ -1,4 +1,4 @@
-# IRH - Indian REcipe Hub
+# IRH - Indian Recipe Hub
 
 **Title: Indian Recipe Hub (IRH)**
 
